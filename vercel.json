@@ -1,5 +1,11 @@
 {
   "version": 2,
+  "functions": {
+    "app/api/qa/route.ts": {
+      "maxDuration": 60,
+      "memory": 3008
+    }
+  },
   "headers": [
     {
       "source": "/api/(.*)",
